@@ -183,10 +183,10 @@ float mColorOffsetHighRM : CONTROLOBJECT<string name="ColorGradingControllerMinu
 float mColorOffsetHighGM : CONTROLOBJECT<string name="ColorGradingControllerMinus.pmx"; string item = "ColorOffsetHighG-";>;
 float mColorOffsetHighBM : CONTROLOBJECT<string name="ColorGradingControllerMinus.pmx"; string item = "ColorOffsetHighB-";>;
 
-float mWeightLowP : CONTROLOBJECT<string name="ColorGradingControllerMinus.pmx"; string item = "WeightLow+";>;
-float mWeightLowM : CONTROLOBJECT<string name="ColorGradingControllerMinus.pmx"; string item = "WeightLow-";>;
-float mWeightHighP : CONTROLOBJECT<string name="ColorGradingControllerMinus.pmx"; string item = "WeightHigh+";>;
-float mWeightHighM : CONTROLOBJECT<string name="ColorGradingControllerMinus.pmx"; string item = "WeightHigh-";>;
+float mWeightLowP : CONTROLOBJECT<string name="ColorGradingControllerPlus.pmx"; string item = "WeightLow+";>;
+float mWeightLowM : CONTROLOBJECT<string name="ColorGradingControllerPlus.pmx"; string item = "WeightLow-";>;
+float mWeightHighP : CONTROLOBJECT<string name="ColorGradingControllerPlus.pmx"; string item = "WeightHigh+";>;
+float mWeightHighM : CONTROLOBJECT<string name="ColorGradingControllerPlus.pmx"; string item = "WeightHigh-";>;
 
 float mVisualizationLUT : CONTROLOBJECT<string name="ColorGradingControllerPlus.pmx"; string item = "VisualizationLUT";>;
 
